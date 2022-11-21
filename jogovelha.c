@@ -6,7 +6,7 @@ int main ( ){
 	int i, j, linha, coluna, contador;
 	char matriz[3][3];
 	
-	setlocale(LC_ALL,""); /*Acentuação*/
+	setlocale(LC_ALL,""); 
 	
 	
 	for(i = 0; i < 3; i++){
@@ -19,7 +19,7 @@ int main ( ){
 		putchar('\n');
 		putchar('\n');
 	}
-	//primeiro jogador sempre será 'x' e o segundo sempre será 'O';
+	//O primeiro jogador sempre será 'x' e o segundo sempre será 'O';
 	for (contador = 0; contador < 9; contador++){
 		
 		printf("\nInsira a linha em que deverá ser posto seu símbolo:\n");
